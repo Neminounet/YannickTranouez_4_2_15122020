@@ -361,7 +361,15 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+.blockquote {
+    color: #1F1F1F;
+}
+.nav-link {
+    border-radius: 50%;
+}
+.nav-link:hover {
+    background-color: rgb(243, 151, 108,0.4)!important;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
